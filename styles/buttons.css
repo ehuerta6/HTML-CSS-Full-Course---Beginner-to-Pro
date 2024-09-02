@@ -1,0 +1,319 @@
+
+.subscribe-button{
+    color: white;
+    background-color: rgb(200, 0, 0);
+    border-radius: 2px;
+    border: none;
+    transition: opacity .15s;
+    margin-left: 8px;
+    cursor: pointer;
+    width: 105px; 
+    height: 36px;
+
+    
+  }
+
+  .subscribe-button:hover{
+    opacity: .8;
+  }
+
+  .subscribe-button:active{
+    opacity: .5;
+  }
+
+  .join-button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(41, 118, 211);
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    height: 36px;
+    width: 62px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background-color .15s,
+    color .15s;
+  }
+
+  .join-button:hover{
+    background-color: rgb(41, 118, 211);
+    color: white;
+  }
+
+  .join-button:active{
+    opacity: 0.70;
+  }
+
+  .tweet-button {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 75px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow .15s;
+ }
+
+ .tweet-button:hover{
+  box-shadow:5px 5px 10px rgba(0, 0, 0, .15);
+  }
+
+  .tweet-button:active{
+    opacity: 0.70;
+  }
+
+ .uber-button {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 110px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: opacity .15s,
+ }
+
+ .uber-button:hover{
+    opacity: 0.80;
+  }
+  .uber-button:active{
+    opacity: 0.60;
+  }
+
+ .amazon-button {
+    background-color: rgb(255, 216, 20);
+    color:black;
+    border: none;
+    height: 36px;
+    width: 175px;
+    font-weight: bold;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: opacity .15s, 
+    background-color .15s;
+ }
+
+ .amazon-button:hover{
+    background-color: rgb(255, 200, 20);
+  }
+  .amazon-button:active{
+    opacity: 0.80;
+  }
+
+ .github-button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 90px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: hover .15s;
+ }
+
+ .github-button:hover{
+  box-shadow:5px 5px 10px rgba(0, 0, 0, .15);
+  }
+  .github-button:active{
+    opacity: 0.80;
+  }
+
+ .bootstrap1-button {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 100px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background-color .15s, 
+    opacity .15s;
+ }
+
+ .bootstrap1-button:hover{
+  background-color: rgb(81, 60, 167);
+ }
+
+ .bootstrap1-button:active{
+  opacity: .80;
+ }
+
+ .bootstrap2-button {
+    background-color:white;
+    color: rgb(108, 117, 125);
+    border-color:rgb(108, 117, 125) ;
+    border-width: 1px;
+    height: 36px;
+    width: 100px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background-color .15s,
+    opacity .15s, 
+    color .15s;
+ }
+
+ .bootstrap2-button:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+  }
+
+  .bootstrap2-button:active{
+    opacity: 0.70;
+  }
+
+ .linkedin1-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 215px;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+    font-size: 14px;
+ }
+
+ .linkedin1-button:hover{
+  background-color: rgb(5, 85, 164);
+ }
+
+ .linkedin1-button:active{
+  opacity: .80;
+ }
+
+ .linkedin2-button {
+    background-color:white;
+    color: rgb(10, 102, 194);
+    border-color:rgb(10, 102, 194) ;
+    border-width: 1px;
+    border-style: solid;
+    height: 36px;
+    width: 75px;
+    font-weight: bold;    
+    border-radius: 18px;
+    cursor: pointer;
+    margin-left: 8px;
+    font-size: 14px;
+ }
+
+ .linkedin2-button:hover{
+  border-width: 3px;
+  background-color: rgb(223, 240, 255);
+ }
+
+ .linkedin2-button:active{
+  opacity: .80;
+ }
+
+ .random-button {
+  background-color: white;
+  color: darkred;
+  border-color: darkred;
+  border-width: 2px;
+  border-style: solid;
+  height: 40px;
+  width: 120px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 15px;
+
+  transition: background-color .15s;
+
+ }
+
+ .random-button:hover{
+  border-width: 3px;
+  border-color: white;
+  background-color: darkred;
+  color: white;
+ }
+
+ .random-button:active{
+  background-color: rgb(183, 43, 43);
+ }
+
+  .random-button1 {
+  background-color: rgb(30, 0, 139);
+  color: white;
+  border-color: rgb(30,0,139);
+  border-width: 2px;
+  border-style: solid;
+  height: 40px;
+  width: 120px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 15px;
+
+  transition: opacity .15s, background-color .15s;
+
+  }
+
+  .random-button1:hover{
+    background-color: rgb(50,0,139);
+    border-color: white;
+    border-width: 1px;
+  }
+
+  .random-button1:active{
+    opacity: .80;
+  }
+
+  .jotificador{
+  background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%);
+  color:white;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  height: 40px;
+  width: 160px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 15px; 
+
+  transition: font-weight .15s, opacity .15s;
+
+  }
+
+  .jotificador:hover{
+    border-color: white;
+    border-width: 3px;
+    color: white;
+    font-weight: 800;
+
+  }
+
+  .jotificador:active{
+    opacity: .80;
+  }
+
