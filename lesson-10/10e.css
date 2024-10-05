@@ -1,0 +1,77 @@
+.profiles {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.user-details-div {
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 0;
+}
+
+.pfp {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.mutual-pfp {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+
+.mutual-pfp-div, .mutual-text-div {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.mutual-text {
+    color: gray;
+    font-size: 15px;
+}
+
+.user-info-div {
+    align-items: center;
+    vertical-align: middle;
+}
+
+.name {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.profile {
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    vertical-align: top;
+    margin-right: 15px;
+    display: inline-block;
+
+}
+
+.request-button {
+    color: white;
+    background-color: #366FD9;
+    border: none;
+    border-radius: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: background-color .5s;
+}
+
+.request-button:hover{
+    background-color: #285cbd;
+}
+
+.request-button:active{
+    background-color: #5a82ce;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
